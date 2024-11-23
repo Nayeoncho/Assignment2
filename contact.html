@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descrition" content="Learn essential tips for taking care of your cat, including grooming, feeding, and health care.">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="image/cat.jpeg" alt="A fluffy orange cat playing with a toy mouse">
+        <h1  class="fst-italic fw-bold">Cats Kingdom</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" rel="home">Home</a></li>
+            <li><a href="media.html" rel="media">Media</a>
+                <ul>
+                    <li><a href="media.html">Video</a></li>
+                </ul>
+            </li>
+            <li><a href="gallery.html" rel="gallery">Gallery</a>
+                <ul>
+                    <li><a href="gallery.html">Cats Gallery</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html" rel="contact">Contact</a>
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Contact us</h2>
+        <h6 class="text-center">Please feel free to fill out the form below to send us your custom request for cats.</h6>
+        <form class="p-1 mt-3" method="post">
+            <fieldset class="border border-3 border-danger-subtle">
+                <legend>Log-in</legend>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Enter your e-mail address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                </div>
+                <!-- submit button -->
+                <div>
+                    <button type="button" class="btn btn-secondary mb-3">Submit</button>
+                </div>
+                <div>
+                    <label for="inputPassword5" class="form-label">Password</label>
+                    <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" required>
+                    <div id="passwordHelpBlock" class="form-text mb-3">
+                    Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                </div>
+                <div>
+                    <button type="button" class="btn btn-secondary mb-3">Submit</button>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset class="border border-3 border-danger-subtle">
+                <legend>Recieve 15% discount coupon</legend>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
+                    <label class="form-check-label" for="flexRadioDefault1">
+                    Yes
+                    </label>
+                </div>
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" required>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                    No
+                    </label>
+                </div>
+                <div>
+                    <label for=""></label>
+                    <select class="form-select mb-3" size="3" aria-label="Size 3 select example" required>
+                        <option selected>Selec your address</option>
+                        <option value="1">Home</option>
+                        <option value="2">Office</option>
+                        <option value="3">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="text">Today: </label>
+                    <input type="date" name="requiredate" required>
+                    <input type="color" name="selectcolour" required>
+                </div>
+            </fieldset>
+            <br>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please enter comments here ..."></textarea>
+            </div>
+        </form>
+    </main>
+
+    <aside class="side">
+        <h2>About Cats</h2>
+        <ul>
+            <li>Cats personality</li>
+            <li>Cats region</li>
+            <li>Cats strength</li>
+        </ul>
+    </aside>
+    <footer>
+        &copy;2024 Nayeon Cho/Ncho2769@conestogac.on.ca
+    </footer>
+</body>
+</html>
