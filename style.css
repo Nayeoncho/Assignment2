@@ -198,7 +198,7 @@ aside{
     float: right;
     width: 20%;
     height: 800px;
-    background-image: url(../../image/aside bg.jpg);
+    background-image: url(../../image/aside\ bg.jpg);
     background-size: cover;
 }
 aside h2{
